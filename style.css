@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.jogo {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 250px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.linha {
+  display: flex;
+}
+
+.celula {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.celula:hover {
+  background-color: #f0f0f0;
+}
+
+#reiniciar {
+  border: 1px solid none;
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.cx-img {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  background-image: url(./assets/dev_club_devs_logo.jpg);
+  background-size: 250px;
+}
